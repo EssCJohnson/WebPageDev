@@ -168,6 +168,11 @@ form #submit {
     background-color: #b7b7e1;
     font-size: 1em;
 }
+
+.social img {
+  display: inline-block;
+  padding: 4%;
+}
 }
 /* Media Query for Mobile Viewport */
 @media screen and (max-width: 550px), print { 
@@ -207,7 +212,15 @@ form #submit {
     text-align: center;
   }
  
+footer a {
+    color: #4645a8;
+    text-decoration: none;
+}
 
+.social img {
+  display: inline-block;
+  padding: 4%;
+}
 
 }
 /* Media Query for Tablet Viewport */
@@ -248,6 +261,16 @@ form #submit {
    width: 70%;
    margin: 0 auto;
  }
+
+ .copyright {
+    float: left;  width: 65%; 
+}
+ 
+.social {
+    float: right;
+        width: 25%; 
+}
+
  fieldset legend {
     font-weight: bold;
     font-size: 1.25em;
